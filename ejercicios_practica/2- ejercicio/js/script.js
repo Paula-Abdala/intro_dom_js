@@ -17,3 +17,12 @@ Obtener todos los botones utilizando la clase "btn",
 luego a todos los botones agregar la clase "agua"
 
 */
+
+document.getElementById(`boton1`).innerHTML=`PEGAR`;
+document.getElementById(`boton2`).innerHTML=`COPIAR`;
+document.getElementById(`boton3`).innerHTML=`CORTAR`;
+
+const botonesPorClase= document.querySelectorAll(`.btn`);
+boton1.classList.add(`agua`);
+boton2.classList.add(`agua`);
+boton3.classList.add(`agua`);
